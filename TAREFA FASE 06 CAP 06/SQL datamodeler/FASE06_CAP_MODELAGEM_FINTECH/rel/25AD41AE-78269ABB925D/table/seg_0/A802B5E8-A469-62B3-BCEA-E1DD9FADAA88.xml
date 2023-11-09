@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A802B5E8-A469-62B3-BCEA-E1DD9FADAA88" name="T_INVEST_TIPO">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>0E8C7E69-F180-15CE-CA94-4E66EF88AE34</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_invest" id="4CF7FEA2-F371-AE61-9BD5-03C17F2C7370">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>9182B2FE-8A79-2C69-3C63-7E3CF913D04B</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo_invest" id="7BBA6BC3-E302-7F7F-95E4-097BCF99012D">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>7D1FF1B8-4ED7-FE95-BA39-65D15FDEF7C6</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_taxa_indice" id="FCE22CFE-B333-7AD8-EBF1-4A86F6F8E164">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>70CAA317-2794-BA07-C39C-6E6367B6155C</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE75BCF-6A47-405F-DEB4-7769F8907FA1" name="T_INVEST_TIPO_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>CFA8CE1F-7010-B32B-A582-FC7E14819213</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CF7FEA2-F371-AE61-9BD5-03C17F2C7370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

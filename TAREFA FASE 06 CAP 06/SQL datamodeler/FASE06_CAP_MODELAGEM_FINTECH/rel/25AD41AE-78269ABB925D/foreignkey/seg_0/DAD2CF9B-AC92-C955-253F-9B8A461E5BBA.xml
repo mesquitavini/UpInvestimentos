@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAD2CF9B-AC92-C955-253F-9B8A461E5BBA" containerWithKeyObject="647928B7-9851-EBA9-6C13-5667B0614CAB" localFKIndex="56A4DCF8-1947-051D-B3C2-A544E6AB7974" name="T_INVEST_T_INVEST_TIPO_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:20:55 UTC</createdTime>
+<generatorID>0E84ABF2-CB91-F351-7CE7-D8B1B017A0ED</generatorID>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<referredTableLongName>T_INVEST_TIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A802B5E8-A469-62B3-BCEA-E1DD9FADAA88</referredTableID>
+<keyObject>FDE75BCF-6A47-405F-DEB4-7769F8907FA1</keyObject>
+<referredKeyID>FDE75BCF-6A47-405F-DEB4-7769F8907FA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_invest</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

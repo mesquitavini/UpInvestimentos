@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FASE06_CAP_MODELAGEM_FINTECH" id="FAE41476-301C-DD2F-C576-84E1A0E2EE4B" version="3.5">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-29 18:13:37 UTC</createdTime>
+<ownerDesignName>RM552081_MODELAGEM_FINTECH</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FAE41476-301C-DD2F-C576-84E1A0E2EE4B</designId>
+</OSDM_Design>

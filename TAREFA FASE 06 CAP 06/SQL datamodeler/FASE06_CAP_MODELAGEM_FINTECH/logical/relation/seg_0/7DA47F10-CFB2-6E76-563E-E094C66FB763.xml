@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="7DA47F10-CFB2-6E76-563E-E094C66FB763">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-29 18:53:16 UTC</createdTime>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<sourcePk>0E3D31CC-5FC4-B166-5738-C4204E8E202D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8E027E9-D5E9-753C-4C00-1DA2C415861B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2AC832A5-87DF-D9A1-2138-2A6887908ED0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

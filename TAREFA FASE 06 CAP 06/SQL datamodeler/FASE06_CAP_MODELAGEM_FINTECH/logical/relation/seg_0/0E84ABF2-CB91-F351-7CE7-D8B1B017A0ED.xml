@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relação investimento - classe de investimentos" directorySegmentName="seg_0" id="0E84ABF2-CB91-F351-7CE7-D8B1B017A0ED">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-29 19:26:58 UTC</createdTime>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<sourcePk>CFA8CE1F-7010-B32B-A582-FC7E14819213</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E8C7E69-F180-15CE-CA94-4E66EF88AE34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3431496-55ED-319B-8156-99756597295C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

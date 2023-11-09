@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="983DC594-EDF5-E84C-EE1D-844E13446CF7" name="T_USER">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:04:14 UTC</createdTime>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_user" id="8DD5D126-B5F5-A400-4A79-301D3D4C2A7D">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:04:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo do usuario]]></commentInRDBMS>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_user" id="A7253536-EFE8-AB58-6BB9-FEF8DDFFDEB9">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:05:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do usuario]]></commentInRDBMS>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_CPF" id="014494EE-B74E-8D6F-E791-52E224BF343B">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:05:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero do CPF do usuario]]></commentInRDBMS>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nasc" id="A69720AD-DB21-F218-46E5-F85E4C0D5B12">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:05:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[data de nascimento do usuario]]></commentInRDBMS>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="D152833A-E347-414F-D68C-8BC4014A0323">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:06:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[e-mail do usuario]]></commentInRDBMS>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A025E68-37B6-919C-29CA-DDED7A8E62AB" name="T_USER PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2023-05-30 00:05:00 UTC</createdTime>
+<ownerDesignName>FASE06_CAP_MODELAGEM_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="25AD41AE-AF76-75CB-F9E8-78269ABB925D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DD5D126-B5F5-A400-4A79-301D3D4C2A7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
