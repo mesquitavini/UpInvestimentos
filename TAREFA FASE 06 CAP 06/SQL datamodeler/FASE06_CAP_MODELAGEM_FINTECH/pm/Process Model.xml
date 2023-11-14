@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="BF24447D-2827-F405-E4A4-9DDC77A0BBA4">
-<createdBy>ADMIN</createdBy>
-<createdTime>2023-05-29 18:13:37 UTC</createdTime>
-<ownerDesignName>RM552081_MODELAGEM_FINTECH</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
