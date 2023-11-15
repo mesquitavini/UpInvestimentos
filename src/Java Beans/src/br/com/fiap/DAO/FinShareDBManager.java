@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 // Ainda não foi ajustado para o projeto atual
-
+// Necessita dar build  path no jdbc
 public class FinShareDBManager {
 
 	public static Connection realizarConexao() throws SQLException {
